@@ -8,7 +8,7 @@ public class Demo
         Scanner keyboard = new Scanner(System.in);
         Color color = null;
 
-        System.out.println("Which color is better, red or blue? Enter 1 for red, or 2 for blue");
+        System.out.println("Which color is better, red or blue? Enter 1 for red, or 2 for blue: ");
         int option = keyboard.nextInt();
 
         if (option == 1)
@@ -21,7 +21,7 @@ public class Demo
         }
         else
         {
-            System.out.println("Invalid input, please enter 1 for Red or 2 for Blue.");
+            System.out.println("Invalid input! Please enter 1 for Red or 2 for Blue.");
             option = keyboard.nextInt();
         }
 
