@@ -1,4 +1,4 @@
 public abstract class Color
 {
-    public abstract String type();
+    public abstract String description();
 }
