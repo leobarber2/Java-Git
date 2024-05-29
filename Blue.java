@@ -6,6 +6,6 @@ public class Blue extends Color
     }
     public String description()
     {
-        return "This color is blue";
+        return "This color is blue.";
     }
 }
